@@ -22,4 +22,6 @@ app.get("/", (req, res) => {
 });
 app.use("/items", itemsRouter);
 
+app.get("/items/:id");
+
 app.listen(8000, () => console.log("Server is up!"));
