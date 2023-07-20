@@ -23,6 +23,3 @@ app.get("/", (req, res) => {
 app.use("/items", itemsRouter);
 
 app.listen(8000, () => console.log("Server is up!"));
-
-app.get("/items");
-app.get("/items/:id");
